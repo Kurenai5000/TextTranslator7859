@@ -13,4 +13,7 @@ I created this with great help from deepseek which did a lot of the programming 
 Currently only tested with Chinese to English.
 
 Make sure to use a deepseek API key or edit it to work with other LLM API's.
+
 Use a txt file to translate.
+
+Increase chunk size and lower ms in order to speed it up. Though you need to work within the API's limits. It is currently slow in order to work properly.
