@@ -10,10 +10,12 @@
 
 I created this with great help from deepseek which did a lot of the programming in order to translate an old Chinese book.
 
-Currently only tested with Chinese to English.
+Currently only tested with Chinese to English and Italian to English. After testing a second language, I am confident it should work with most.
 
 Make sure to use a deepseek API key or edit it to work with other LLM API's.
 
 Use a txt file to translate.
 
 Increase chunk size and lower ms in order to speed it up. Though you need to work within the API's limits. It is currently slow in order to work properly.
+
+Refresh the page to translate a new book. Otherwise it will translate the first again.
