@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+input, button {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#progressBar {
+  height: 16px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+}
+
+#progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #4a9, #2d7);
+  width: 0%;
+  transition: width 0.2s ease;
+}
+
+#status {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #333;
+  min-height: 1.2em;
+}
+
+#preview {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.75rem;
+  white-space: pre-wrap;
+  font-size: 0.85rem;
+  background: #fafafa;
+  font-family: monospace;
+}

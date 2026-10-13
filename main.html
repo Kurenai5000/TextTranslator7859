@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Translator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Text Translator</h1>
+  <p>Upload a raw text file and click start for the program to translate your file.</p>
+
+  <h2>Input your API key</h2>
+  <input type="text" id="apiInput">
+
+  <h2>Upload raw text file</h2>
+  <input type="file" id="fileInput" accept=".txt,.md">
+
+  <br><br>
+  <button id="translateBtn" disabled>Start Translation</button>
+
+  <h2>Progress</h2>
+  <div id="progressBar">
+    <div id="progressFill"></div>
+  </div>
+  <h3 id="status">Status: Ready</h3>
+
+  <h2>Preview</h2>
+  <div id="preview">(no output yet)</div>
+
+  <h2>Download once completed</h2>
+  <button id="downloadBtn" disabled>Download Translation</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
